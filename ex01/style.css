@@ -1,0 +1,62 @@
+
+/* Fixed Navigation Bar */
+
+.navbar {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    background-color: lightgray;
+    padding: 15px;
+
+    z-index: 10;
+
+}
+
+
+/* Card Container */
+
+.card {
+
+    position: relative;
+
+    width: 300px;
+
+    margin: 100px auto;
+
+    padding: 20px;
+
+    border: 1px solid black;
+
+}
+
+
+/* Absolute Badge inside card */
+
+.badge {
+
+    position: absolute;
+
+    top: 0;
+
+    right: 0;
+
+}
+
+
+/* Fixed Back To Top Button */
+
+.back-top {
+
+    position: fixed;
+
+    bottom: 20px;
+
+    right: 20px;
+
+    z-index: 10;
+
+}
